@@ -31,6 +31,9 @@ PROMPT="%T %n@%m:%~%# "
 # Change global setting which enforces a vt100 TERM in Linux hosts.
 #[ "$TERM" = "vt100" ] && [ "`uname`" = "Linux" ] && [ -n "$DISPLAY" ] && TERM=xterm
 
+# LCAC: Checkout $PATH_SRC/*.zsh for additional useful commands
+# Usage: source $PATH_SRC/command.zsh
+
 # Private tmp files for security.
 [ -d "~/tmp" ] && export TMPDIR="~/tmp"
 
