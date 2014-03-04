@@ -1,2 +1,2 @@
-[ -f "~/rc/aliases" ] && source "~/rc/aliases"
+[ -f ~/rc/aliases ] && source ~/rc/aliases
 
