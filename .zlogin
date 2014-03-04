@@ -7,7 +7,7 @@ echo "Processing ~/.zlogin ..."
 ###############################################################################
 
 # Mandatory line for DAC users. Please KEEP this line!
-source $PATH_SRC/DAC.zsh._LOGIN_
+[ -f "$PATH_SRC/DAC.zsh._LOGIN_" ] && source "$PATH_SRC/DAC.zsh._LOGIN_"
 
 ### BEGIN User commands ######################################################
 # Write here the commands you want to execute in interactive sessions
