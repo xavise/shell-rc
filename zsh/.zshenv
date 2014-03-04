@@ -14,7 +14,7 @@
 ### BEGIN User commands ######################################################
 # Set your local path here
 # export PATH=${PATH}:path1:path2:... 
-PATH="$HOME/bin:$PATH"
+PATH="~/bin:$PATH"
 export PATH MANPATH
 
 
@@ -32,5 +32,5 @@ PROMPT="%T %n@%m:%~%# "
 #[ "$TERM" = "vt100" ] && [ "`uname`" = "Linux" ] && [ -n "$DISPLAY" ] && TERM=xterm
 
 # Private tmp files for security.
-[ -d "$HOME/tmp" ] && export TMPDIR="$HOME/tmp"
+[ -d "~/tmp" ] && export TMPDIR="~/tmp"
 

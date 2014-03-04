@@ -10,5 +10,5 @@ unsetopt correct
 unsetopt correctall
 
 # Aliases.
-[ -f "$HOME/rc/aliases" ] && source "$HOME/rc/aliases"
+[ -f "~/rc/aliases" ] && source "~/rc/aliases"
 
