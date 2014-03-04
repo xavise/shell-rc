@@ -1,0 +1,23 @@
+# General purpose.
+alias ls='ls -aF --color=auto'
+alias ll='ls -l'
+alias rm='rm -i'
+alias cp='cp -ip'
+alias mv='mv -i'
+
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias psu='ps -u $LOGNAME'
+which less >& /dev/null || alias less='more'
+
+# CVS.
+alias cvs-lcac='~cvs-lcac/cvs-lcac'
+alias cvsstat='cvs -q status | grep Status'
+alias cvsmod='cvsstat | grep -v Up-to-date'
+
+# LCAC puppet repo (using bzr).
+alias bzrdiff='bzr diff --using=tkdiff'
+alias bzrrb='cd ~/bzr/services.config && bzr rebase; cd -'
+alias findpp='cd ~/bzr/services.config/etc; find . -name "*.pp" | xargs grep'
+
