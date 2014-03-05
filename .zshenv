@@ -35,5 +35,5 @@ PROMPT="%T %n@%m:%~%# "
 # Usage: source $PATH_SRC/command.zsh
 
 # Private tmp files for security.
-[ -d "~/tmp" ] && export TMPDIR="~/tmp"
+[ -d ~/tmp ] && export TMPDIR=~/tmp
 
