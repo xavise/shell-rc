@@ -11,6 +11,7 @@ alias grep='grep --color=auto'
 alias psu='ps -u $LOGNAME'
 which less >& /dev/null || alias less='more'
 
+alias gitdiff='git difftool -y -t tkdiff'
 alias findpp='cd ~/git/lcac/services_config/etc && find . -name "*.pp" | xargs grep'
 
 # CVS (obsolete).
